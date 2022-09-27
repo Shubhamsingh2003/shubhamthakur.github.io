@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+    ;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 58px;
+    background-color: var(--main-bg-color);
+    border: 2px solid green;
+    color: white;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 10px 14px;
+    height: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: italic;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 493px;
+    height: 27px;
+    border: radius 5px;
+    margin: 0 16px 0 56px;
+}
+
+.container {
+    min-height: 480px;
+}
+
+.slider {
+    margin: auto;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-family: 'lato' sans-serif;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'lato' sans-serif;
+}
